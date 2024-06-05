@@ -57,6 +57,11 @@
 
         animation: pulse 1s infinite;
     }
+    .initial{
+      margin-left: 20%; 
+
+    }
+
 
     @keyframes pulse {
         0% {
@@ -96,20 +101,20 @@
         <div class="swiper theme-slider min-vh-100" data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
           <div class="swiper-wrapper" >
             <div class="swiper-slide" data-zanim-timeline="{}">
-              <div class="bg-holder" style="background-image:url('assets/img/mala_p.png'); background-color: #AB990F;     background-position: center bottom -50px;"></div>
-              <!--/.bg-holder-->
+              <div class="bg-holder" style="background-image:url('https://unyflex.com.br/storage/fav/obs.png'); background-color: #AB990F;"></div>
+              <!--/.bg-holder--><br><br>
               <div class="container">
-                <div class="row min-vh-100 py-8 align-items-center" data-inertia='{"weight":1.5}'>
+                <div class="row min-vh-100 py-8 align-items-center initial " data-inertia='{"weight":1.5}'  style="">
                   <div class="col-sm-8 col-lg-7 px-5 px-sm-3" >
-                    <div class="overflow-hidden">
-                      <h1 class="fs-4 fs-md-5 lh-1" data-zanim-xs='{"delay":0}'>Overbooking
+                    <div class="">
+                      <h1 class="fs-4 fs-md-5 lh-1 " data-zanim-xs='{"delay":0}' style="color:#d0be74">OVERBOOKING
                       </h1>
                     </div>
-                    <div class="overflow-hidden">
-                      <p id="minhaDiv" class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs" data-zanim-xs='{"delay":0.2}' ><b>Você tem Direito de Ser Indenizado! <br>Receba indenizações de até R$ 15.000,00! <br>Entenda seus direitos!</p></b>
+                    <div class="">
+                      <p id="minhaDiv" class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs" data-zanim-xs='{"delay":0.2}' style="color: #fff">Você tem Direito de Ser Indenizado! <br>Receba indenizações de até R$ 15.000,00! <br><b style="color:#d0be74">Entenda seus direitos!</b></p>
                     </div>
                   
-                    <div class="overflow-hidden">
+                    <div class="">
 
                       <div  class="btn-pulse" style="margin-top: 10px; margin-left: -190px">
                         <a href="https://api.whatsapp.com/send/?phone=5511945216718&text&type=phone_number&app_absent=0" class="back-to-top d-flex align-items-center justify-content-center" style="text-decoration: none;">
@@ -132,7 +137,7 @@
         </div>
       </section>
 
-      <script>
+      <!-- <script>
         document.addEventListener('DOMContentLoaded', function() {
             var div = document.getElementById('minhaDiv');
             var texto = div.textContent || div.innerText;
@@ -150,7 +155,7 @@
             }
 
         });
-    </script>
+    </script> -->
       <!-- ============================================-->
       <!-- <section> begin ============================-->
 
@@ -171,7 +176,7 @@
             </div>
             <div class="row g-4">
               <div class="col-md-6 col-lg-4">
-                <div class="card"><a href="news/news.html"><img class="card-img-top" src="https://img.freepik.com/free-photo/young-handsome-man-with-bag-his-shoulder-hurry-airport_146671-18162.jpg" alt="Featured Image" /></a>
+                <div class="card"><a href="news/news.html"><img class="card-img-top" src="https://unyflex.com.br/storage/fav/f1.jpeg" alt="Featured Image" /></a>
                   <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                     <div class="overflow-hidden"><a href="news/news.html">
                         <h5 data-zanim-xs='{"delay":0}'>Entenda o Overbooking:</h5>
@@ -188,9 +193,9 @@
                 </div>
               </div>
               <div class="col-md-6 col-lg-4">
-                <div class="card"><a href="news/news.html"><img class="card-img-top" src="https://t4.ftcdn.net/jpg/04/91/58/83/240_F_491588348_UcHRT8VF62xy1WKt7PulxUcRLxJfZ7zC.jpg" alt="Featured Image" /></a>
+                <div class="card"><a href="#"><img class="card-img-top" src="https://unyflex.com.br/storage/fav/f3.jpeg" alt="Featured Image" /></a>
                   <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="overflow-hidden"><a href="news/news.html">
+                    <div class="overflow-hidden"><a href="#">
                         <h5 data-zanim-xs='{"delay":0}'>Conheça Seus Direitos</h5>
                       </a></div>
                    
@@ -204,9 +209,9 @@
                 </div>
               </div>
               <div class="col-md-6 col-lg-4">
-                <div class="card"><a href="news/news.html"><img class="card-img-top" src="https://img.freepik.com/free-photo/law-book-with-gavel-domestic-violence-law_1150-9092.jpg?t=st=1715704581~exp=1715708181~hmac=3c97e3051494d1d0c69ee51184bda9283e248ecd25deef5c319c04213ba5f823&w=740" alt="Featured Image" /></a>
+                <div class="card"><a href="#"><img class="card-img-top" src="https://unyflex.com.br/storage/fav/f2.jpeg" alt="Featured Image" /></a>
                   <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="overflow-hidden"><a href="news/news.html">
+                    <div class="overflow-hidden"><a href="#">
                         <h5 data-zanim-xs='{"delay":0}'>Indenização por Dano Material:</h5>
                       </a></div>
               
@@ -220,9 +225,9 @@
                 </div>
               </div>
               <div class="col-md-6 col-lg-4">
-                <div class="card"><a href="news/news.html"><img class="card-img-top" src="https://img.freepik.com/free-photo/anxious-young-traveler-woman-talking-phone-holding-tickets-isolated-white-wall_141793-25721.jpg?t=st=1715704718~exp=1715708318~hmac=35e4554d2b41ef5e5e739189a0d4ab09b9e6fcf59fe9948ba0d806236dfb89a8&w=740" alt="Featured Image" /></a>
+                <div class="card"><a href="#"><img class="card-img-top" src="https://img.freepik.com/free-photo/anxious-young-traveler-woman-talking-phone-holding-tickets-isolated-white-wall_141793-25721.jpg?t=st=1715704718~exp=1715708318~hmac=35e4554d2b41ef5e5e739189a0d4ab09b9e6fcf59fe9948ba0d806236dfb89a8&w=740" alt="Featured Image" /></a>
                   <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="overflow-hidden"><a href="news/news.html">
+                    <div class="overflow-hidden"><a href="#">
                         <h5 data-zanim-xs='{"delay":0}'>Indenização por Dano Moral:</h5>
                       </a></div>
               
@@ -236,9 +241,9 @@
                 </div>
               </div>
               <div class="col-md-6 col-lg-4">
-                <div class="card"><a href="news/news.html"><img class="card-img-top" src="assets/img/anac.jpeg" alt="Featured Image" /></a>
+                <div class="card"><a href="#"><img class="card-img-top" src="assets/img/anac.jpeg" alt="Featured Image" /></a>
                   <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="overflow-hidden"><a href="news/news.html">
+                    <div class="overflow-hidden"><a href="#">
                         <h5 data-zanim-xs='{"delay":0}'>Multa Resolução ANAC:</h5>
                       </a></div>
                  
